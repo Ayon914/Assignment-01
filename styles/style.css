@@ -9,6 +9,25 @@
   font-optical-sizing: auto;
 }
 
+
+
+/* Shared style*/
+.btn{
+    padding: 12.5px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 24px 0;
+    gap: 10;
+    border: 0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background:#30B868;
+    cursor: pointer;
+}
+
+
+
+
 /* Navbar */
 
 nav{
@@ -18,7 +37,6 @@ nav{
     width: 1600px;
     height: 92px;
     padding: 16px 120px 16px 120px;
-    background-color: blanchedalmond;
 }
 
 nav .logo{
@@ -47,16 +65,92 @@ nav .menu a{
 }
 
 
-/* Shared style*/
-.btn{
+#hero .hero-container{
+    background-image: url(../assets/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+    text-align: center;
+
+}
+
+/*#hero .hero-container .hero-btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border: none;
+    margin-bottom: 16px;
+    padding: 1000px;
+}
+
+#hero .hero-container .hero-heading{
+    padding-top: 115.5;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    gap: 6;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+#hero .hero-container{
+    padding-top: 115.5px;
+}
+
+#hero .hero-container .hero-heading .hero-btn{
+    border-radius: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 6;
+    padding: 8px 12px 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    background-color: white;
+    border: none;
+    margin-bottom: 16px;
+
+}
+
+
+
+
+.hero-container .hero-1 .hero-2{
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+}
+.hero-container .hero-1 .hero-2 span{
+    color: #30B868;
+}
+
+.hero-container .hero-p{
+    color: white;
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.hero-container .hero-btn2{
+    gap: 16px;
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.hero-container .hero-btn2 .btn-2{
     padding: 12.5px 16px;
     font-size: 16px;
     font-weight: 600;
     margin: 24px 0;
     gap: 10;
-    border: 0;
     border-radius: 4px;
     color: #FFFFFF;
     background:#30B868;
     cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
 }
