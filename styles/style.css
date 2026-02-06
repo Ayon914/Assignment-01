@@ -73,45 +73,10 @@ nav .menu a{
 
 }
 
-/*#hero .hero-container .hero-btn{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 12px;
-    border: none;
-    margin-bottom: 16px;
-    padding: 1000px;
-}
-
-#hero .hero-container .hero-heading{
-    padding-top: 115.5;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 1);
-    gap: 6;
-    justify-content: center;
-    align-items: center;
-}*/
-
 
 #hero .hero-container{
     padding-top: 115.5px;
 }
-
-#hero .hero-container .hero-heading .hero-btn{
-    border-radius: 1000px;
-    justify-content: center;
-    align-items: center;
-    gap: 6;
-    padding: 8px 12px 8px 12px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #30B868;
-    background-color: white;
-    border: none;
-    margin-bottom: 16px;
-
-}
-
-
 
 
 .hero-container .hero-1 .hero-2{
@@ -328,4 +293,47 @@ nav .menu a{
     font-weight: 400;
     line-height: 20px;
     padding-bottom: 80px;
+}
+
+#footer {
+    margin-top: 120px;
+    background-color: #001931;
+}
+
+#footer .footer-container {
+    width: 85%; 
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.footer-container .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.footer-container .f-menu{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer-container .f-menu .footer-icon img{
+     width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+
+.bottom hr {
+    margin: 80px 0 30px;
+    /* Why hr color not working? */
+    color: #023bac7a;
+}
+
+.bottom p {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px
 }
