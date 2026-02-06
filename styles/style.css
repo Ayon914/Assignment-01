@@ -78,6 +78,18 @@ nav .menu a{
     padding-top: 115.5px;
 }
 
+#hero .hero-container .hero-heading .hero-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
 
 .hero-container .hero-1 .hero-2{
     color: white;
